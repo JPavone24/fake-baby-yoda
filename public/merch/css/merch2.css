@@ -1,0 +1,82 @@
+
+
+@font-face {
+    font-family: 'agatha';
+    src: url('../fonts/agatha/Agatha.ttf');
+    font-styles: normal;
+    font-weight:100;
+}
+
+  
+#heading{
+    color:white;
+    text-align: center;
+    font-family: 'agatha';
+    font-size: 100px;
+}
+#seller-heading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+  
+
+
+#seller-button{
+    background-color: lightgreen;
+    color:black;
+   
+}
+
+.merch-heading{
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: url('../img/sky.jpg');
+} 
+   
+h1{
+    text-align: center;
+}
+
+/* 
+h1:hover{
+    text-decoration: underline;
+    color: lightgreen;
+} */
+
+   #video-gallery{
+       color: white;
+   }
+   .baby-yoda-video{
+       /* background-color: rgba(159, 152, 192, 0.4); */
+       padding: 5px;
+
+   }
+   .video-section{
+    padding:10px;
+    /* border: 5px solid rgba(52, 40, 65, 0.7); */
+
+   }
+   .video-heading{
+       text-align: center;
+       background-color: rgba(52, 40, 65, 0.7);
+       padding: 15px;
+   }
+
+   .video-description{
+    margin-top: 10px;
+    background-color: rgba(179, 170, 221, 0.7);
+    padding: 15px;
+}
+
+#products-list{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+h3{
+    color:white
+}

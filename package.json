@@ -1,0 +1,38 @@
+{
+  "name": "baby-yoda-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPavone24/baby-yoda-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPavone24/baby-yoda-site/issues"
+  },
+  "homepage": "https://github.com/JPavone24/baby-yoda-site#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table": "^0.3.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "stripe": "^7.14.0"
+  }
+}

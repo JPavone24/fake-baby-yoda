@@ -1,0 +1,27 @@
+body{
+    background-image: url('../img/sky.jpg');
+    /* color: white; */
+}
+
+#checkout-form{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@font-face {
+    font-family: 'agatha';
+    src: url('../fonts/agatha/Agatha.ttf');
+    font-styles: normal;
+    font-weight:100;
+}
+
+
+#heading{
+    text-align: center;
+    font-family: "agatha";
+    font-weight: 100;
+    font-size: 80px;
+    color: lightgreen; 
+    padding:20px;
+    background-color:  rgba(0, 0, 0, 0.8);
+  
+}   

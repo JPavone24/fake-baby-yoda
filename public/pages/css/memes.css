@@ -1,0 +1,24 @@
+body {
+    background-image: url('../img/sky.jpg');
+   }
+
+   @font-face {
+    font-family: 'agatha';
+    src: url('../fonts/agatha/Agatha.ttf');
+    font-styles: normal;
+    font-weight:100;
+  }
+  
+#heading{
+    text-align: center;
+    font-family: "agatha";
+    font-weight: 60;
+    font-size: 150px;
+    color: lightgreen; 
+    margin-top:20px;
+  }  
+  
+footer{
+    background-color: rgba(51, 43, 39, 0.767);
+}
+

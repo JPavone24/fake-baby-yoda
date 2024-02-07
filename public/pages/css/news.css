@@ -1,0 +1,111 @@
+body{
+    background-image: url('../img/sky.jpg');
+}
+
+
+@font-face {
+    font-family: 'news';
+    src: url('../fonts/chomsky/dist/Chomsky.otf');
+    font-styles: normal;
+    font-weight:100;
+}
+
+#newsBody{
+    padding:30px;
+    background-color: rgb(165, 194, 159, 0.6);
+    margin-top: 30px;
+} 
+
+
+#heading{
+    text-align: center;
+    font-family: news;
+    font-weight: 100;
+    font-size: 100px;
+    color: lightgreen;
+    padding:30px;
+    background-color:  rgba(0, 0, 0, 0.8);
+  
+}   
+.story-body{
+    padding:20px;
+}
+.body-headings{
+ background-color: red;
+ padding:15px;
+}
+.paragraph-text{
+    background-color:blue;
+    padding:15px;
+}
+
+
+#firstStory{
+    background-color:  rgb(213, 228, 210, 0.5);
+}
+
+#first-heading{
+    background-color:  rgba(105, 160, 94, 0.5);
+    padding:15px;
+    text-align:center;
+}
+#first-paragraph{
+    background-color:  rgb(213, 228, 210, 0.6);
+    padding:20px;
+}
+
+
+#secondStory{
+    background-color:  rgb(159, 194, 173, 0.5);
+}
+
+#second-heading{
+    background-color:  rgba(105, 160, 94, 0.6);
+    padding:15px;
+    text-align:center;
+}
+#second-paragraph{
+    background-color:  rgb(213, 228, 210, 0.6);
+    padding:20px;
+}
+
+
+  
+#thirdStory{
+    background-color:  rgb(191, 206, 177, 0.6); 
+
+    padding-right: 10px;
+}
+
+#third-heading{
+    background-color:  rgba(105, 160, 94, 0.5);
+    padding:15px;
+    text-align:center;
+}
+#third-paragraph{
+    background-color:  rgb(213, 228, 210, 0.6);
+    padding:20px;
+}
+
+
+ .forth-story{
+    background-color: rgba(200, 236, 214, 0.5); 
+    padding-top: 20px;
+    
+ }
+
+#baby-yoda-pic-4{
+    background-color: crimson;
+}
+
+#forth-heading{
+    background-color:  rgba(105, 160, 94, 0.5);  
+    text-align:center;
+    
+}
+#forth-paragraph{
+    background-color:  rgb(213, 228, 210, 0.6);
+   
+} 
+
+

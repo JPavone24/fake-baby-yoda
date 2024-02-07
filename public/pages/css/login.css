@@ -1,0 +1,66 @@
+body {
+  background-image: url('../img/sky.jpg');
+ }
+
+ @font-face {
+  font-family: 'agatha';
+  src: url('../fonts/agatha/Agatha.ttf');
+  font-styles: normal;
+  font-weight:100;
+}
+
+
+#heading{
+  text-align: center;
+  font-family: "agatha";
+  font-weight: 100;
+  font-size: 80px;
+  color: lightgreen; 
+  margin-top:20px;
+}  
+
+
+#baby-yoda-form{
+    background-color: rgb(165, 194, 159, 0.7);
+    margin-top: 10px;
+    padding:20px;
+    margin-bottom: 80px;
+}
+#margin{
+    padding-top: 70px;
+    padding:30px;
+    background-color: rgb(165, 194, 159);
+}
+#submit-button{
+    background-color: chartreuse;
+}
+
+.footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color:  rgba(51, 43, 39, 0.7);
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: #fff;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+  }

@@ -1,0 +1,24 @@
+body{
+    font-family: 'Nunito';
+    background-image: url("../img/babyYoda/supernova.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: rgba(51, 43, 39);
+} 
+#chatroom{
+    padding-top: 50px;
+}
+#heading{
+    background-color:  rgba(1, 5, 5, 0.884);
+    color: lightgreen;
+  
+}
+#chatbox{
+    background-color: rgba(255, 255, 255, 0.26);
+    height: 400px;
+}
+#submit{
+    background-color:  rgb(150, 207, 179);
+}  

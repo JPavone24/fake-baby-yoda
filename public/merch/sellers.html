@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stripe.js v3 with Bootstrap 4 Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="seller.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  static-top" style="background-color: rgba(51, 43, 39, 0.767)" id="mainNav">
+        <div class="container">
+           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/login">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/register">Register</a>
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/memes">Memes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/news">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/merch">Merch</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/chat">Chat/Forems</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+    <div class="container" >
+        <h1 id = "heading" class="mt-5">Become a Seller!</h1>
+     
+        <div class="card" id = "checkout-form">
+            <div class="card-body">
+                <form id="payment-form">
+
+                  <div class = "row">
+                        <div class="col-lg-3 col-md-6 sm-col-12" >
+                          <label for="nameOfProduct">Name of Product</label>
+                              <div class="input-group mb-2">
+                                  <input type="text" class="form-control" id="nameOfProduct">
+                              </div>
+                          </div>
+                          
+                          <div class="col-lg-3 col-md-6 sm-col-12" >
+                              <label for="nameOfSeller">Name Of Seller</label>
+                              <div class="input-group mb-2">
+                                  <input type="text" class="form-control" id="nameOfSeller">
+                              </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 sm-col-12" >
+                              <label for="price">Price</label>
+                              <div class="input-group mb-2">
+                                  <input type="text" class="form-control" id="price">
+                              </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 sm-col-12" >
+                            <label for="quantity">Quantity</label>
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control" id="quantity">
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class = "row">
+                      <div class="col-lg-6 col-md-6 sm-col-12" >
+                          <label for="department">Department</label>
+                          <div class="input-group mb-2">
+                              <input type="text" class="form-control" id="department">
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 sm-col-12" >
+                            <label for="img">image</label>
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control" id="img">
+                            </div>   
+                      </div>
+                </div>   
+
+                    <label for="description">Description</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="description">
+                    </div>
+
+                   
+
+                 
+                    <button id="submit" class="btn btn-primary mt-1">Submit Payment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script type = "text/javascript" src = "seller.js"></script>
+</body>
+</html>

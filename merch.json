@@ -1,0 +1,56 @@
+{
+    "mugs": [
+      {
+        "id": 1,
+        "name": " baby yoda mug 1",
+        "price": 12.99,
+        "imgName": "/merch/img/mugs/mug1.jpg"
+      },  
+      {
+        "id": 2,
+        "name": "baby yoda mug 2",
+        "price": 14.99,
+        "imgName": "/merch/img/mugs/mug2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "baby yoda mug 3",
+        "price": 9.99,
+        "imgName": "/merch/img/mugs/mug3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "baby yoda mug 4",
+        "price": 19.99,
+        "imgName": "/merch/img/mugs/mug4.jpg"
+      }
+    ],
+    "fashion": [
+      {
+        "id": 1,
+        "name": " fashion 1",
+        "price": 12.99,
+        "imgName": "/merch/img/fashion/fashion1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "fashion 2",
+        "price": 14.99,
+        "imgName": "/merch/img/fashion/fashion2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "fashion 3",
+        "price": 9.99,
+        "imgName": "/merch/img/fashion/fashion3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "fashion 4",
+        "price": 19.99,
+        "imgName": "/merch/img/fashion/fashion4.jpg"
+      }
+    ]   
+  }
+
+   
